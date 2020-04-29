@@ -1,0 +1,30 @@
+{
+  "name": "catholic",
+  "version": "0.0.0",
+  "description": "Catholic liturgical calendar data",
+  "keywords": [
+    "Catholic",
+    "church",
+    "liturgy",
+    "liturgical",
+    "calendar",
+    "Roman Rite"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/catholic",
+  "repository": "lamansky/catholic",
+  "dependencies": {
+    "date-easter": "^0.2.5",
+    "map-obj": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "lamansky"
+  }
+}
